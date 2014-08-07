@@ -1,0 +1,152 @@
+.header {
+	text-align: center;
+	padding: 10px;
+}
+h1 {
+	font-family: "Ariel";
+	font-size: 45px;
+	font-weight: 600;
+}
+.hot {
+	color: #A00000;
+}
+.cold {
+	color: #33CCFF;
+}
+.middle {
+	text-align: center;
+	padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.entry_box {
+display: block;
+width: 250px;
+background: rgb(238, 238, 238);
+border-radius: 5px;
+margin: 0 auto;
+margin-top: 60px;
+margin-bottom: 60px;
+margin-left: auto;
+margin-right: auto;
+box-shadow: 0px 0px 5px 4px rgb(102, 102, 102);
+}
+
+.entry_box_title {
+background: rgb(220,220,220);
+border-radius: 5px 5px 0 0;
+font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+text-align: center;
+padding: 5px;
+font-size: 18px;
+}
+.entry_box {
+margin: 0 auto;
+display: block
+}
+
+#guess {
+display: block;	
+height: 60px;
+width: 60px;
+font-size: 30px;
+box-shadow: 0px 0px 2px rgba (0,0,0,0.2);
+border: 2px solid rgb(176, 186, 173);
+border-radius: 2px;
+margin-top: 15px;
+margin-bottom: 5px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+
+
+#submit {
+background-color: rgb(119, 212, 42);
+border-radius: 5px;
+border: 1px solid rgb(38, 138, 22);
+color: rgb(250, 251, 249);
+padding: 5px 22px;
+text-decoration: none;
+text-shadow: 1px 1px 0px rgb(167, 234, 152);
+margin-top: 10px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+font-size: 14px;
+}
+
+.button_cont {
+margin-top: 20px;
+display: inline-block;
+padding: 8px;
+text-align: center;
+}
+
+.button.green {
+-moz-box-shadow: inset 0px 1px 0px 0px #caefab;
+-webkit-box-shadow: inset 0px 1px 0px 0px rgb(202, 239, 171);
+box-shadow: inset 0px 1px 0px 0px rgb(202, 239, 171);
+background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, rgb(119, 212, 42)), color-stop(1, rgb(92, 184, 17)) );
+background: -moz-linear-gradient( center top, #77d42a 5%, #5cb811 100% );
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#77d42a', endColorstr='#5cb811');
+background-color: rgb(119, 212, 42);
+-moz-border-radius: 6px;
+-webkit-border-radius: 6px;
+border-radius: 5px;
+border: 1px solid rgb(38, 138, 22);
+color: rgb(250, 251, 249);
+padding: 5px 8px;
+text-decoration: none;
+text-shadow: 1px 1px 0px rgb(167, 234, 152);
+margin-top: 10px;
+font-size: 14px;
+margin: 0 auto;
+width: 120px;
+margin-top: 20px;
+display: inline;
+padding: 8px;
+
+}
+
+.button.red {
+color: rgb(255, 255, 255);
+text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+background-color: rgb(218, 79, 73);
+background-image: -moz-linear-gradient(top, #ee5f5b, #bd362f);
+background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(238, 95, 91)), to(rgb(189, 54, 47)));
+background-image: -webkit-linear-gradient(top, rgb(238, 95, 91), rgb(189, 54, 47));
+background-image: -o-linear-gradient(top, #ee5f5b, #bd362f);
+background-image: linear-gradient(to bottom, rgb(238, 95, 91), rgb(189, 54, 47));
+background-repeat: repeat-x;
+border-color: rgb(189, 54, 47) rgb(189, 54, 47) rgb(128, 36, 32);
+border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+padding: 5px 8px;
+text-decoration: none;
+text-shadow: 1px 1px 0px rgb(167, 234, 152);
+margin-top: 10px;
+font-size: 14px;
+margin: 0 auto;
+width: 120px;
+margin-top: 20px;
+display: inline;
+padding: 8px;
+}
+
+#messages {
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	border-radius: 5px 5px 0 0;
+	text-align: center;
+	padding: 5px;
+	font-size: 14px;
+	margin-top: 10px;
+	display: block;
+	
+}
+
+#newGameCheat {
+text-align: center;
+display: block;
+}
+

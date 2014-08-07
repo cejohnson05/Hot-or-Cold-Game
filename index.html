@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hot or Cold Game</title>
+		<link rel="stylesheet" href="style.css" type="text/css" />
+	</head>
+	<body>
+		<div class="Wrapper">
+			<div class="header">
+				<h1>
+					<span class="hot">Hot</span>
+					or
+					<span class="cold">Cold</span>
+					?
+				</h1>
+			</div>
+			<div class="middle">
+				<h2>A number between 1 and 100 has been selected</h2>
+			</div>
+			<div class="entry_box">
+				<div class="entry_box_title">
+					<p>What's your guess?</p>
+				</div>
+					<input type="text" name="guess" id="guess" maxlength="3" autocomplete="off">
+					<input type="submit" name="submit" id="submit" class="button">
+				<output id="messages" class="panel"></output>
+			</div>
+			<div id="newGameCheat">
+				<div class="button_cont">
+					<button name="newgame" id="newgame" class="button green">New Game!</button>
+				</div>
+		
+				<div class="button_cont">
+					<button name="cheat" id="cheat" class="button red">Cheat</button>
+				</div>
+			</div>
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
